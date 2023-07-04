@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* class communes */
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
