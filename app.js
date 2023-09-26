@@ -109,3 +109,29 @@ prj3.addEventListener("mouseover", function(){
     imgprj1.style.filter = "blur(5px)";
     imgprj2.style.filter = "blur(5px)";
 });
+
+let land1 = document.getElementById("land1");
+let land2 = document.getElementById("land2");
+let land3 = document.getElementById("land3");
+let land4 = document.getElementById("land4");
+let land5 = document.getElementById("land5");
+land1.addEventListener("click", function(){
+    land1.style.display = "none";
+    land2.style.display = "block";
+});
+land2.addEventListener("click", function(){
+    land2.style.display = "none";
+    land3.style.display = "block";
+});
+land3.addEventListener("click", function(){
+    land3.style.display = "none";
+    land4.style.display = "block";
+});
+land4.addEventListener("click", function(){
+    land4.style.display = "none";
+    land5.style.display = "block";
+});
+land5.addEventListener("click", function(){
+    land5.style.display = "none";
+    land1.style.display = "block";
+});

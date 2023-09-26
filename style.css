@@ -142,8 +142,13 @@
 
 /* main */
 
-#land {
+.land {
     width: 100%;
+    cursor: help;
+}
+
+#landing {
+    height: 500px;
 }
 
 #trait {
